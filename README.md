@@ -46,6 +46,11 @@
 ## 🐍 Contribution Snake
 
 <p align="center">
-  <img src="https://github.com/Idrees-Mujadidi/Idrees-Mujadidi/blob/output/snake.svg" alt="snake animation" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Idrees-Mujadidi/Idrees-Mujadidi/blob/output/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/Idrees-Mujadidi/Idrees-Mujadidi/blob/output/snake-light.svg" />
+    <img alt="GitHub Contribution Snake" src="https://github.com/Idrees-Mujadidi/Idrees-Mujadidi/blob/output/snake-dark.svg" />
+  </picture>
 </p>
+
 
