@@ -13,16 +13,18 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Generate snake.svg
+      - name: Generate dark mode snake.svg
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: Idrees-Mujadidi
-          outputs: dist/snake.svg?palette=github-dark
+          outputs: |
+            dist/snake-dark.svg?palette=github-dark
+            dist/snake-light.svg?palette=github-light
 
-      - name: Push snake.svg to output branch
+      - name: Push both snake SVGs to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
