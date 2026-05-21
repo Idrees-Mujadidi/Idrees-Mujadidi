@@ -39,9 +39,6 @@
   </a>
 </p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Idrees-Mujadidi&show_icons=true&theme=radical" width="47%" />
-</p>
 
 ## 🐍 Contribution Snake
 
